@@ -1,4 +1,4 @@
-# Recipe Management SPA
+# Home Cooking Recpies SPA
 
 This is a Single Page Application (SPA) built with Node.js that serves as a recipe management system. It utilizes Mongoose to handle database operations and offers both user and public sections for interacting with recipes.
 
