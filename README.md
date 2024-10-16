@@ -6,7 +6,7 @@ This is a Single Page Application (SPA) built with Node.js that serves as a reci
 
 - **Public Section**:
   - Browse recipes and search using a search bar.
-  
+
 - **User Section**:
   - Logged-in users can create new recipes.
   - Edit and delete their own recipes.
@@ -23,7 +23,7 @@ To get started with this application, follow the steps below:
 
 ### Steps
 
-1. Clone the repository:
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/stiliyangospodinov/Home-Cooking-Recipes.git
@@ -38,19 +38,37 @@ Install the required dependencies:
 
 bash
 
-npm install
+    npm install
 
-Set up your MongoDB database:
+MongoDB Local Setup
 
-    Create a new database and update the connection string in your .env file (if using environment variables) or directly in the code.
+To use a local MongoDB database, follow these steps:
 
-Start the application:
+    Install MongoDB:
+        Download and install MongoDB from the MongoDB Community Server.
 
-bash
+    Start MongoDB:
+        Open a terminal and run the following command to start the MongoDB server:
 
-    npm run debug
+        bash
 
-    Access the application in your web browser at http://localhost:3000.
+    mongod
+
+    Ensure that the MongoDB server is running before starting the application.
+
+(Optional) Install MongoDB Compass:
+
+    Download and install MongoDB Compass for a graphical interface to manage your databases from MongoDB Compass.
+
+Run the Application:
+
+    After starting the MongoDB server, navigate to the project directory and run the application:
+
+    bash
+
+        npm run debug
+
+        The database HomeCookingRecipes will be created locally, and you can start adding recipes!
 
 Usage
 
