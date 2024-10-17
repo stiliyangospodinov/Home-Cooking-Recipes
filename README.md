@@ -87,3 +87,8 @@ Acknowledgments
     Node.js - JavaScript runtime built on Chrome's V8 engine.
     Express - Fast, unopinionated, minimalist web framework for Node.js.
     Mongoose - MongoDB object modeling for Node.js.
+
+This project was developed by:
+
+Stiliyan Gospodinov
+
